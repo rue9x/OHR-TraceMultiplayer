@@ -1,0 +1,29 @@
+plotscript, newgame, begin
+	suspendPlayer
+end
+
+plotscript, defkeypress, begin
+	if (heroIsWalking(me)==false) then (
+		if (keypress (upkey)) then (
+			moving (up)
+		)
+		if (keypress (downkey)) then (
+			moving (down)
+		)
+		if (keypress (leftkey)) then (
+			moving (left)
+		)
+		if (keypress (rightkey)) then (
+			moving (right)
+		)
+	)
+
+	subscript, moving, dir, begin
+		walkHero(me, dir)
+		$0 = ""
+		appendNumber (0, hero x (me))
+		$0 + ", "
+		appendNumber (0, hero y (me))
+		trace (0)
+	end
+end

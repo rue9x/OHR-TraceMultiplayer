@@ -1,0 +1,72 @@
+Loading D:\OHRRPGCE\support\CrashRpt1403.dll
+ 0.1   ----Starting OHRRPGCE Custom----
+ 0.1  04-27-2022 13:34:22
+ 0.2  OHRRPGCE wip 20220426.12937 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.08.1 (2021-07-05) gcc 8.1.0 x86 pdb  Built on vampirecell -g -exx -gen gcc Win32 32-bit
+ 0.2  exepath: D:\OHRRPGCE, exe: D:\OHRRPGCE\custom.exe
+ 0.2  orig_dir: D:\OHRRPGCE\0OHRGames\OHR-TraceMultiplayer
+ 0.2  curdir: D:\OHRRPGCE
+ 0.3  Runtime info:   music_sdl2, SDL 2.0.16, SDL_Mixer 2.0.5  Windows 6.2.9200 (8/Server 2012 or later) , ANSI codepage: 1252
+ 0.3  documents_dir: C:\Users\Dell\Documents
+ 0.4  config: C:\Users\Dell\AppData\Roaming\OHRRPGCE\ohrrpgce_config.ini
+ 0.4  prefer_gfx_backend: gfx backend sdl isn't available
+ 0.4  set_resolution 622*335
+ 0.4  Setting graphics scaling to x2 change_windowsize=-1
+ 0.4  gfx_sdl2_set_window_size 622,335, zoom=2
+ 0.4  Initialising gfx_sdl2...
+ 0.5  setvideomode zoom=2 w*h = 1244,670
+ 0.6  gfx_sdl2 "SDL 2.0.16 (1 joysticks) Driver: windows (Drivers: windows dummy) Render driver: direct3d (Drivers: direct3d (hwaccel,vsync,textarget) opengl (hwaccel,vsync,textarget) opengles2 (hwaccel,vsync,textarget) software (textarget))"
+ 0.6  disable_native_text_input=0
+ 0.6  unlock_resolution(320,200)
+ 0.6  music_sdl2, SDL 2.0.16, SDL_Mixer 2.0.5
+ 0.7  music_sdl2, SDL_Mixer 2.0.5 (48000Hz, Music decoders:WAVE,MODPLUG,MOD,MAD,MP3,OGG,NATIVEMIDI,MIDI Sample decoders:WAVE,AIFF,VOC,MOD,MP3,OGG,MID)
+ 0.7  Working in C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.7  check_ok_to_open...
+ 0.7  pid_current_exe = \Device\HarddiskVolume4\OHRRPGCE\custom.exe
+ 0.7  prev_session.workingdir = C:\Users\Dell\AppData\Roaming\OHRRPGCE\working0.tmp
+ 0.7  prev_session.info_file_exists = YES
+ 0.7  prev_session.pid = 10344 (exe = \Device\HarddiskVolume4\OHRRPGCE\custom.exe)
+ 0.7  prev_session.running = YES
+ 0.7  prev_session.partial_rpg = NO
+ 0.7  prev_session.fresh_danger_tmp = NO
+ 0.7  prev_session.sourcerpg = 
+ 0.7  prev_session.sourcerpg_old_mtime = 0
+ 0.7  prev_session.sourcerpg_current_mtime = 0
+ 0.7  prev_session.session_start_time = 2022 Apr 27 13:34:22
+ 0.7  prev_session.last_lump_mtime = 0
+end_debug: no debug/error messages during startup (skipping rest of startup)
+
+ 0.7   ----Loading a game----
+ 0.7  04-27-2022 13:34:23
+ 0.7  curdir: D:\OHRRPGCE\0OHRGames\OHR-TraceMultiplayer
+ 0.7  tmpdir: C:\Users\Dell\AppData\Roaming\OHRRPGCE\
+ 0.7  settings_dir: C:\Users\Dell\AppData\Roaming\OHRRPGCE
+ 0.7  config: C:\Users\Dell\AppData\Roaming\OHRRPGCE\ohrrpgce_config.ini
+ 0.7  Editing game D:\OHRRPGCE\0OHRGames\OHR-TraceMultiplayer\tracemulti.rpg ( )
+ 0.8  Full game data upgrade...
+ 0.8  Last edited by: [[OHRRPGCE wip 20220426.12937 gfx_sdl2+directx+fb/music_sdl2 FreeBASIC 1.08.1 (2021-07-05) gcc 8.1.0 x86 pdb  Built on vampirecell  -g -exx -gen gcc Win32 32-bit]] branch_rev 12220
+ 0.8  archinym creation info: OHRRPGCE wip 20220426
+ 0.8  Joystick 0 GUID 03000000c82d000006310000000072 instance_id 0
+ 0.8   Opened as gamecontroller Controller (8BitDo Pro 2)
+ 0.8  Opened joystick 0 Controller (8BitDo Pro 2) (id 0) -- 11 buttons 6 axes 1 hats 0 balls
+ 6.2  "D:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.745730.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.402426.tmp"
+ 6.9  hspeak version '3Va'
+ 6.9  spawn_and_wait "D:\OHRRPGCE\hspeak.exe" -y --include "OHR-TraceMultiplayer\tracemulti.hsi"  "OHR-TraceMultiplayer\_main.hss"
+34.8  "D:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.661460.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.799842.tmp"
+34.8  hspeak version '3Va'
+34.8  spawn_and_wait "D:\OHRRPGCE\hspeak.exe" -y --include "OHR-TraceMultiplayer\tracemulti.hsi"  "OHR-TraceMultiplayer\_main.hss"
+54.1  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_44206
+55.1  Channel connection received (after 892ms)
+124.0  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+125.5  "D:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.467381.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.317976.tmp"
+125.6  hspeak version '3Va'
+125.6  spawn_and_wait "D:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "OHR-TraceMultiplayer\tracemulti.hsi"  "OHR-TraceMultiplayer\_main.hss"
+168.5  "D:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.415440.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.699356.tmp"
+168.6  hspeak version '3Va'
+168.6  spawn_and_wait "D:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "OHR-TraceMultiplayer\tracemulti.hsi"  "OHR-TraceMultiplayer\_main.hss"
+171.2  Successfully opened IPC channel \\.\pipe\ohrrpgce_lump_updates_testing_24629
+171.5  Channel connection received (after 346ms)
+231.4  "D:\OHRRPGCE\hspeak.exe" -k > "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stdout.900532.tmp" 2> "C:\Users\Dell\AppData\Roaming\OHRRPGCE\temp_stderr.83455.tmp"
+231.5  hspeak version '3Va'
+231.5  spawn_and_wait "D:\OHRRPGCE\hspeak.exe" -y --reuse-ids "C:\Users\Dell\AppData\Roaming\OHRRPGCE\scripts.bin" --include "OHR-TraceMultiplayer\tracemulti.hsi"  "OHR-TraceMultiplayer\_main.hss"
+245.2  channel_write error (closing) (wrote 0 of 15): The pipe is being closed.
+247.5  Saving - been editing for 2m45s
